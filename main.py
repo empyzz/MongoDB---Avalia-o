@@ -4,7 +4,7 @@ from datetime import datetime
 
 try:
 
-    uri = "mongodb+srv://rafa:rafa123@prova-rafael.s5vca.mongodb.net/?retryWrites=true&w=majority&appName=Prova-Rafael"
+    uri = "mongodb+srv://<usuario>:<senha><url>"
     client = MongoClient(uri)
     db = client["Biblioteca"] 
     livros = db["Livros"] 
